@@ -1,2 +1,2 @@
 #!/bin/bash
-echo ‘The absolute path is’ $(realpath script2.sh)
+echo $(realpath script2.sh)
